@@ -15,3 +15,9 @@ repo_build.prebuild_copy {
 }
 
 -- Apps: for each app generate batch files and a project based on kit files (e.g. my_name.my_app.kit)
+define_app("bycn_omniverse.cesium.kit")
+define_app("bycn_omniverse.cesium_streaming.kit")
+define_app("bycn_omniverse.cesium_ovc.kit")
+define_app("my_company.my_usd_composer.kit")
+define_app("my_company.my_usd_composer_streaming.kit")
+define_app("my_company.my_usd_composer_ovc.kit")
